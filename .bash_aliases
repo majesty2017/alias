@@ -4,15 +4,19 @@ alias rl="php artisan route:list"
 alias migrate="php artisan migrate"
 alias controller="php artisan make:controller"
 alias model="php artisan make:model"
+alias request="php artisan make:request"
 alias refresh="php artisan migrate:refresh"
-alias rollback="php artisan migrate:rollback"
+alias rollback="php artisan migrate:rollback" 
 alias fresh="php artisan migrate:fresh"
-alias factory="php artisan make:factory "
+alias factory="php artisan make:factory"
+alias alter="php artisan make:migration"
+alias middleware="php artisan make:middleware"
 alias seeder="php artisan make:seeder "
 alias seed="php artisan db:seed"
 alias tinker="php artisan tinker"
 alias key="php artisan key:generate" 
 alias ui="composer require laravel/ui" 
+alias auth="php artisan ui:auth"
 alias vue="php artisan ui vue --auth"
 alias bootstrap="php artisan ui bootstrap --auth"
 alias livewire="php artisan make:livewire"
@@ -25,13 +29,19 @@ alias chart="php artisan make:chart"
 alias start="sudo /opt/lampp/lampp start"
 alias stop="sudo /opt/lampp/lampp stop"
 alias restart="sudo /opt/lampp/lampp restart"
-alias ht="cd /opt/lampp/htdocs/"
+alias ht="cd /opt/lampp/htdocs/projects"
 alias lig="sudo apt install fonts-firacode"
-alias lp="composer create-project --prefer-dist laravel/laravel"
+alias project="composer create-project --prefer-dist laravel/laravel"
 alias ln="laravel new --jet"
+
+alias inertia="php artisan jetstream:install inertia"
 alias jetstrap="composer require nascent-africa/jetstrap --dev"
-alias jet-swap="php artisan jetstrap:swap inertia"
-alias i="sudo apt install"
+alias swap="php artisan jetstrap:swap inertia"
+
+alias spatie="composer require spatie/laravel-permission"
+alias multiselect="npm install @suadelabs/vue3-multiselect"
+
+alias ins="sudo apt install"
 alias opencv="pip3 install opencv-contrib-python"
 alias inpip="pip3 install"
 alias uppip="pip3 update"
@@ -46,6 +56,9 @@ alias chgrp="sudo chgrp -R www-data /home/majestysoft/Documents/devs/www/"
 alias storage="sudo chmod -R 775 /home/majestysoft/Documents/devs/www/"
 alias exp="expo init"
 alias rn="npx react-native init"
+alias react="npx create-react-app ./"
+alias next="npx create-next-app@latest --js"
+alias nexttailwind="npx create-next-app -e with-tailwindcss"
 alias dev="npm run dev"
 alias watch="npm run watch"
 alias hot="npm install && npm run hot"
@@ -55,44 +68,26 @@ alias ngrok="npm install @expo/ngrok@2.4.3"
 alias paystack="composer require unicodeveloper/laravel-paystack"
 alias ini="sudo gedit /opt/lampp/etc/php.ini"
 
+alias mix="npm install laravel-mix@latest"
+alias ns="npm start"
+
+alias init="git init"
 alias add="git add ."
-alias change="git checkout -b"
-alias checkout="git checkout"
-alias status="git status"
 alias commit="git commit -m"
 alias branch="git branch -M"
 alias remote="git remote add origin"
+alias remove="git remote remove origin"
 alias push="git push -u origin"
-alias remove-remote="git remote remove origin"
+alias status="git status"
+alias change="git checkout -b"
+alias ss="sanity start"
+alias yadd="yarn add"
+alias ydev="yarn run dev"
+alias gc="git clone"
+alias permission="composer require spatie/laravel-permission"
+alias publish-permission='php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"'
+alias clear="php artisan optimize:clear"
 
-alias deleted="git log --diff-filter=D --summary | grep delete"
-
-alias switchversion="sudo update-alternatives --config php"
-
-alias tor="torbrowser-launcher"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+alias vite="npm create vite@latest"
+alias tailwindcss="npm install -D tailwindcss postcss autoprefixer"
+alias tailwindcss-init="npx tailwindcss init -p"
