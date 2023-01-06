@@ -70,7 +70,6 @@ alias deleted="git log --diff-filter=D --summary | grep delete"
 alias switchversion="sudo update-alternatives --config php"
 
 alias tor="torbrowser-launcher"
-alias phpini="sudo gedit /opt/lampp/etc/php.ini"
 
 
 
