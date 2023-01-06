@@ -55,6 +55,23 @@ alias ngrok="npm install @expo/ngrok@2.4.3"
 alias paystack="composer require unicodeveloper/laravel-paystack"
 alias ini="sudo gedit /opt/lampp/etc/php.ini"
 
+alias add="git add ."
+alias change="git checkout -b"
+alias checkout="git checkout"
+alias status="git status"
+alias commit="git commit -m"
+alias branch="git branch -M"
+alias remote="git remote add origin"
+alias push="git push -u origin"
+alias remove-remote="git remote remove origin"
+
+alias deleted="git log --diff-filter=D --summary | grep delete"
+
+alias switchversion="sudo update-alternatives --config php"
+
+alias tor="torbrowser-launcher"
+alias phpini="sudo gedit /opt/lampp/etc/php.ini"
+
 
 
 
