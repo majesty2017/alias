@@ -180,3 +180,5 @@ alias select="npm install react-select"
 alias leaflet="npm install leaflet"
 alias leaflet-types="npm i -D @types/leaflet"
 alias react-leaflet="npm install react-leaflet"
+
+alias phpversion="sudo update-alternatives --config php"
