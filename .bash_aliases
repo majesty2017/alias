@@ -184,3 +184,5 @@ alias react-leaflet="npm install react-leaflet"
 
 alias phpversion="sudo update-alternatives --config php"
 alias usmsgh="composer require urhitech/urhitech-sms-php"
+
+alias web-clone="wget --mirror --convert-links --wait=2"
