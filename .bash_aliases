@@ -187,3 +187,5 @@ alias phpversion="sudo update-alternatives --config php"
 alias usmsgh="composer require urhitech/urhitech-sms-php"
 
 alias web-clone="wget --mirror --convert-links --wait=2"
+
+alias packages="npm i express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs concurrently"
