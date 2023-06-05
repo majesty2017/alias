@@ -198,6 +198,6 @@ alias supabase-schema="npx supabase gen types typescript --schema public > types
 alias supabase-helper="npm install @supabase/auth-helpers-nextjs"
 alias supabase-react="npm install @supabase/auth-helpers-react"
 
-alias react-spinners="npm i react-spinners"
-
 alias redux="npm install @reduxjs/toolkit react-redux"
+
+alias spinners="npm i react-spinners"
