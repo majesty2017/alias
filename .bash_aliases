@@ -8,13 +8,11 @@ alias pa="php artisan"
 alias pas="php artisan serve"
 alias rl="php artisan route:list"
 alias migrate="php artisan migrate"
-alias migration="php artisan make:migration"
 alias controller="php artisan make:controller"
 alias model="php artisan make:model"
 alias request="php artisan make:request"
 alias resource="php artisan make:resource"
 alias mail="php artisan make:mail"
-alias notification="php artisan make:notification"
 alias refresh="php artisan migrate:refresh"
 alias rollback="php artisan migrate:rollback" 
 alias fresh="php artisan migrate:fresh"
@@ -183,9 +181,23 @@ alias leaflet="npm install leaflet"
 alias leaflet-types="npm i -D @types/leaflet"
 alias react-leaflet="npm install react-leaflet"
 
+alias toastify="npm install --save react-toastify"
+
+
 alias phpversion="sudo update-alternatives --config php"
 alias usmsgh="composer require urhitech/urhitech-sms-php"
 
 alias web-clone="wget --mirror --convert-links --wait=2"
 
 alias packages="npm i express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs concurrently"
+
+alias c="code-insiders ."
+alias supabase="npm install supabase@">=1.8.1" --save-dev"
+alias supabase-login="npx supabase login"
+alias supabase-schema="npx supabase gen types typescript --schema public > types_db.ts --project-id"
+alias supabase-helper="npm install @supabase/auth-helpers-nextjs"
+alias supabase-react="npm install @supabase/auth-helpers-react"
+
+alias react-spinners="npm i react-spinners"
+
+alias redux="npm install @reduxjs/toolkit react-redux"
